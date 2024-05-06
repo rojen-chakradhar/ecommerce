@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes Store - Nightimator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  </head>
+
+  <body>
+    <div class="main">
+      <a href="#page1">
+        <b class="sendup">
+          <span class="material-symbols-outlined">arrow_upward</span>
+        </b>
+      </a>
+      <div class="page1" id="page1">
+        <nav>
+          <div class="navleft">
+            <a href=""><img src="images/logo.svg" alt="logo" /></a>
+          </div>
+          <div class="navmid">
+            <ul>
+              <li><a href="">home</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">products</a></li>
+              <li><a href="">shop</a></li>
+              <li><a href="">blog</a></li>
+              <li><a href="">contact</a></li>
+            </ul>
+          </div>
+          <div class="navright">
+            <ul>
+              <li>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-regular fa-user"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">local_mall</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="hero-text">
+            <div class="textup">
+              <h3>new summer</h3>
+              <h1>shoes collection</h1>
+            </div>
+            <div class="textdoun">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
+                officiis quos facilis facere sint vitae? Aliquid maxime
+                provident odit itaque quis sequi molestiae quia maiores.
+              </p>
+              <br />
+              <a href=""
+                ><button>
+                  shop now <i class="fa-solid fa-arrow-right"></i></button
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page2">
+        <div class="container">
+          <div class="box">
+            <div class="box1">
+              <h1>men collection</h1>
+              <a href=""
+                ><button>explore all <i class="fas fa-arrow-right"></i></button
+              ></a>
+            </div>
+            <div class="box2">
+              <h1>women collection</h1>
+              <a href=""
+                ><button>explore all <i class="fas fa-arrow-right"></i></button
+              ></a>
+            </div>
+            <div class="box3">
+              <h1>sports collection</h1>
+              <a href=""
+                ><button>explore all <i class="fas fa-arrow-right"></i></button
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page3">
+        <div class="container">
+          <h1>best selling products</h1>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('tab1')">all</p>
+            <p class="tab-links" onclick="opentab('tab2')">nike</p>
+            <p class="tab-links" onclick="opentab('tab3')">adidas</p>
+            <p class="tab-links" onclick="opentab('tab4')">puma</p>
+            <p class="tab-links" onclick="opentab('tab5')">beta</p>
+            <p class="tab-links" onclick="opentab('tab6')">apex</p>
+          </div>
+          <div class="tab-contents active-tab" id="tab1">
+            <div class="products">
+              <a href="">
+                <div class="row">
+                  <img src="images/product-1.jpg" />
+                  <div class="product-text">
+                    <h5>new</h5>
+                  </div>
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / women</p>
+                  </div>
+                  <div class="price">
+                    <h4>running sneaker shoes</h4>
+                    <p>$180.85</p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-2.jpg" />
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / sports</p>
+                  </div>
+                  <div class="price">
+                    <h4>leather Men's slipper</h4>
+                    <p>$190.85</p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-3.jpg" />
+                  <div class="product-text">
+                    <h5>New</h5>
+                  </div>
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / women</p>
+                  </div>
+                  <div class="price">
+                    <h4>simple fabric shoe</h4>
+                    <p>$160.85</p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-4.jpg" />
+                  <div class="product-text">
+                    <h5>-25%</h5>
+                  </div>
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / sports</p>
+                  </div>
+                  <div class="price">
+                    <h4>Half Fancy Lady Dress</h4>
+                    <p>$170.85 <span>$200.21</span></p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-5.jpg" />
+                  <div class="product-text">
+                    <h5>new</h5>
+                  </div>
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / women</p>
+                  </div>
+                  <div class="price">
+                    <h4>nike air max 270 sE</h4>
+                    <p>$120.85</p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-6.jpg" />
+                  <div class="product-text">
+                    <h5>-35%</h5>
+                  </div>
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / women</p>
+                  </div>
+                  <div class="price">
+                    <h4>adidas sneakers shoes</h4>
+                    <p>$100.85 <span>$170.85</span></p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-7.jpg" />
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / sports</p>
+                  </div>
+                  <div class="price">
+                    <h4>nike basketball shoes</h4>
+                    <p>$120.85</p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-8.jpg" />
+                  <div class="product-text">
+                    <h5>-28%</h5>
+                  </div>
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / women</p>
+                  </div>
+                  <div class="price">
+                    <h4>simple fabric shoe</h4>
+                    <p>$100.85 <span>$160.85</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="tab-contents" id="tab2">
+            <p>lorem2</p>
+          </div>
+          <div class="tab-contents" id="tab3">
+            <p>lorem3</p>
+          </div>
+          <div class="tab-contents" id="tab4">
+            <p>lorem4</p>
+          </div>
+          <div class="tab-contents" id="tab5">
+            <p>lorem5</p>
+          </div>
+          <div class="tab-contents" id="tab6">
+            <p>lorem6</p>
+          </div>
+        </div>
+      </div>
+      <div class="page4">
+        <div class="container">
+          <div class="image">
+            <div class="leftimg imag">
+              <h3>adidas shoes</h3>
+              <h1>
+                the summer sale <br />
+                off 50%
+              </h1>
+              <a href=""
+                ><button>shop now <i class="fas fa-arrow-right"></i></button
+              ></a>
+            </div>
+            <div class="rightimg imag">
+              <h3>
+                <span style="color: #1e222f">nike</span>
+                <span style="color: #1e222f">shoe</span>s
+              </h3>
+              <h1>
+                <span style="color: #1e222f">ma</span>ke you<span
+                  style="color: #1e222f"
+                  >rself</span
+                >
+                <span style="color: #1e222f">keep</span> Sporty
+              </h1>
+              <a href=""
+                ><button>shop now <i class="fas fa-arrow-right"></i></button
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page5">
+        <div class="container">
+          <div class="leftside">
+            <img src="images/special-banner.jpg" alt="" />
+            <h1>new trend edition</h1>
+            <a href="">
+              <button>explore all <i class="fas fa-arrow-right"></i></button>
+            </a>
+          </div>
+          <div class="rightside">
+            <h1>nike special</h1>
+            <br />
+            <div class="products">
+              <a href="">
+                <div class="row">
+                  <img src="images/product-1.jpg" />
+                  <div class="product-text">
+                    <h5>new</h5>
+                  </div>
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / women</p>
+                  </div>
+                  <div class="price">
+                    <h4>running sneaker shoes</h4>
+                    <p>$180.85</p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-2.jpg" />
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / sports</p>
+                  </div>
+                  <div class="price">
+                    <h4>leather mens slipper</h4>
+                    <p>$190.85</p>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="row">
+                  <img src="images/product-3.jpg" />
+                  <div class="product-text">
+                    <h5>new</h5>
+                  </div>
+                  <div class="heart-icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div class="gender">
+                    <p>men / women</p>
+                  </div>
+                  <div class="price">
+                    <h4>simple fabric shoe</h4>
+                    <p>$160.85</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page6">
+        <div class="container">
+          <div class="service">
+            <div class="imageborder">
+              <img src="images/service-1.png" style="padding: 25px 15px;" alt="" />
+            </div>
+            <div class="text">
+              <h4>free shiping</h4>
+              <p>All orders over <span style="color: #e06d54">$150</span></p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="imageborder">
+              <img src="images/service-2.png" alt="" />
+            </div>
+            <div class="text">
+              <h4>quick payment</h4>
+              <p>100% secure payment</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="imageborder">
+              <img src="images/service-3.png" alt="" />
+            </div>
+            <div class="text">
+              <h4>free returns</h4>
+              <p>Money back in 30 days</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="imageborder">
+              <img src="images/service-4.png" alt="" />
+            </div>
+            <div class="text">
+              <h4>24/7 support</h4>
+              <p>Get Quick Support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page7">
+        <div class="contain">
+          <a href="">
+            <div class="contai">
+              <img
+                src="images/insta-1.jpg"
+                alt=""
+                class="photo"
+                style="width: 100%" />
+              <div class="middle">
+                <div class="instaicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="contai">
+              <img
+                src="images/insta-2.jpg"
+                alt=""
+                class="photo"
+                style="width: 100%" />
+              <div class="middle">
+                <div class="instaicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="contai">
+              <img
+                src="images/insta-3.jpg"
+                alt=""
+                class="photo"
+                style="width: 100%" />
+              <div class="middle">
+                <div class="instaicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href=""
+            ><div class="contai">
+              <img
+                src="images/insta-4.jpg"
+                alt=""
+                class="photo"
+                style="width: 100%" />
+              <div class="middle">
+                <div class="instaicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="contai">
+              <img
+                src="images/insta-5.jpg"
+                alt=""
+                class="photo"
+                style="width: 100%" />
+              <div class="middle">
+                <div class="instaicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="contai">
+              <img
+                src="images/insta-6.jpg"
+                alt=""
+                class="photo"
+                style="width: 100%" />
+              <div class="middle">
+                <div class="instaicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="contai">
+              <img
+                src="images/insta-7.jpg"
+                alt=""
+                class="photo"
+                style="width: 100%" />
+              <div class="middle">
+                <div class="instaicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="contai">
+              <img
+                src="images/insta-8.jpg"
+                alt=""
+                class="photo"
+                style="width: 100%" />
+              <div class="middle">
+                <div class="instaicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="page8">
+        <div class="container">
+          <div class="logoleft">
+            <a href=""><img src="images/logo.svg" alt="logo" /></a>
+          </div>
+          <div class="mediaright">
+            <ul>
+              <a href=""><li><i class="fa-brands fa-facebook"></i></li></a>
+              <a href=""><li><i class="fa-brands fa-square-x-twitter"></i></li></a>
+              <a href=""><li><i class="fa-brands fa-pinterest"></i></li></a>
+              <a href=""><li><i class="fa-brands fa-linkedin"></i></li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="contact">
+            <h3>contact us<hr></h3>
+            <a href=""><p><i class="fa-solid fa-location-dot" style="color: #e06d54;"></i> 2151 S Parker Rd, Aurora, CO 80014, United States</p></a>
+            <a href=""><p><i class="fa-solid fa-phone" style="color: #e06d54;"></i> +977 9746428695</p></a>
+            <a href=""><p><i class="fa-solid fa-envelope" style="color: #e06d54;"></i> footcap@help.com</p></a>
+          </div>
+          <div class="account">
+            <h3>my account<hr></h3>
+            <a href=""><p><i class="fa-solid fa-angle-right"></i> My Account</p></a>
+            <a href=""><p><i class="fa-solid fa-angle-right"></i> View Cart</p></a>
+            <a href=""><p><i class="fa-solid fa-angle-right"></i> Wishlist</p></a>
+            <a href=""><p><i class="fa-solid fa-angle-right"></i> Compare</p></a>
+            <a href=""><p><i class="fa-solid fa-angle-right"></i> New Products</p></a>
+          </div>
+          <div class="time">
+            <h3>opening time<hr></h3>
+            <div class="timeroutine">
+              <div class="lefttime">
+                <p>Mon-Tue:</p>
+                <p>Wed:</p>
+                <p>Thus:</p>
+                <p>Fri:</p>
+                <p>Sat:</p>
+                <p>Sun:</p>
+              </div>
+              <div class="righttime">
+                <p>8AM - 10PM</p>
+                <p>8AM - 7PM</p>
+                <p>7AM - 12PM</p>
+                <p>8AM - 10PM</p>
+                <p>9AM - 8PM</p>
+                <p>Closed</p>
+              </div>
+            </div>
+          </div>
+          <div class="news">
+            <h3>news letter<hr></h3>
+            <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+            <form id="Email">
+              <input type="email" name="email" placeholder="Email Address" id="email"><input type="submit" value="Subscribe" id="submit">
+            </form>
+          </div>
+        </div>
+      </footer>
+      <div class="credit">
+        <p>© 2024 <span>Rojen Chakradhar</span>. All Rights Reserved</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
